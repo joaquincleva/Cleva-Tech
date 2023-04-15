@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #282c34;
+  color: #FFFFE0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+.navbar-toggler {
+  background-color: #6c757d  
+}
+
+.btn .btn-secundary{
+  background-color: #6c757d;
+  padding: 0px;
+}
+
+.btn-secondary{
+  color: #FFFFE0;
+  margin-top: 2px;
+}
+
+.carrito:hover{
+  background-color: #6c757d;
+}
+
+.carrito {
+  margin-top: 8px
+}
+
+.navbar-brand{
+  font-family: 'Luckiest Guy', cursive, Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 3px;
+  color: #FFFFE0;
+}
