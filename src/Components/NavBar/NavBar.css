@@ -1,0 +1,33 @@
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 3px;
+    color: #900303;
+}
+
+
+.navbar{
+    background-color: #302e2c00 !important;
+}
+
+.boton {
+    background-color: #302e2c00;
+    border-color: #302e2c00
+}
+
+.boton:hover{
+    text-decoration: none;
+}
+
+a {
+    color: #bf811d;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #825815;
+}
+
+.carrito:hover {
+    background-color: 5c636a;
+}
