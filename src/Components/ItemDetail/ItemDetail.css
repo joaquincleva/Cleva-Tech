@@ -37,5 +37,7 @@ h2{
 .description {
     border-radius: 10px 10px 0px 0px;
     color: #F2E5D2;
-    padding: 0px 10px
+    padding: 0px 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }

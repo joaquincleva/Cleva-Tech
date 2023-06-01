@@ -2,6 +2,7 @@ import ItemCount from "../ItemCount.js/index.js"
 import "./ItemDetail.css"
 
 const ItemDetail = ({props}) => {
+    
 
     return (
         <article>
@@ -19,7 +20,7 @@ const ItemDetail = ({props}) => {
                 <p>Stock disponible: {props.stock}</p>
             </section>
             <footer className="agregarCarrito">
-                <ItemCount stock={props.stock}/>
+                <ItemCount props={props}/>
             </footer>
         </article>
     )

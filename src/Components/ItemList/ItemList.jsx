@@ -2,10 +2,7 @@ import Item from "../Item"
 import "./ItemList.css"
 
 const ItemList = ({products}) => {
-    
-    
     return (
-        
             <div className="itemList">
                 {products.map((producto) => {
                     return (
@@ -15,5 +12,4 @@ const ItemList = ({products}) => {
             </div>
     )
 }
-
 export default ItemList

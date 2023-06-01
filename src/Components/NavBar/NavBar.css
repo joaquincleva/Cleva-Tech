@@ -28,6 +28,10 @@ a:hover{
     color: #825815;
 }
 
-.carrito:hover {
-    background-color: 5c636a;
+@media screen and (max-width: 765px){
+    .desplegable{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

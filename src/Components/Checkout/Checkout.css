@@ -1,0 +1,19 @@
+.cargando{
+    margin-top: 25vh;
+}
+
+.verProductos{
+    display: inline-block;
+}
+
+.h2Cargando{
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

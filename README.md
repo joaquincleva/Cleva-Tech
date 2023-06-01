@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# E-Commerce Project - README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains an e-commerce project developed by Joaquín Cleva for the React course at Coderhouse. The project is built using React and is designed to showcase the implementation of various e-commerce functionalities.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Contributing](#contributing)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The e-commerce project includes the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Product Listing: Display a list of products with details such as name and image.
+2. Product Filtering: Allow users to filter products based on categories.
+3. Cart Functionality: Allow users to add products to a cart, view the cart, update quantities, and remove items.
+4. Checkout Process: Enable users to proceed through the checkout process.
+5. Order History: Store user's order history.
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is built using the following technologies:
 
-### `npm run build`
+- React: A JavaScript library for building user interfaces.
+- HTML5 & CSS3: Markup and styling for the application.
+- React Router: Library for routing and navigation in the application.
+- Firebase: A cloud-based platform used for data storage.
+- React-Bootstrap: A CSS framework for responsive and mobile-first web development.
+- React-hook-form: A dependence for form validations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository to your local machine using the following command:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/joaquincleva/Cleva-Tech.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project's directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd Cleva-Tech
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the project dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ``` bash
+   npm install
+   ```
 
-## Learn More
+4. Create a Firebase project and set up the necessary configurations. Replace the Firebase credentials in the project files with your own.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ``` bash
+    npm start
+   ```
 
-### Code Splitting
+6. Open a web browser and visit `http://localhost:3000` to see the application running.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+If you wish to contribute to this project, you can follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request describing the changes you made.
 
-### Making a Progressive Web App
+Please note that this project was developed as a learning exercise for the React course at Coderhouse and may not be suitable for production environments without further enhancements and security considerations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your interest in this e-commerce project! If you have any questions or feedback, please feel free to contact me.
